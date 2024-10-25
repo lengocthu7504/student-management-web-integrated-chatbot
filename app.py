@@ -9,10 +9,10 @@ import ibm_db
 app = Flask(__name__)
 
 # IBM DB2 connection setup
-dsn_hostname = os.getenv('DB_HOST', '0c77d6f2-5da9-48a9-81f8-86b520b87518.bs2io90l08kqb1od8lcg.databases.appdomain.cloud') # change this
-dsn_uid = os.getenv('DB_UID', 'chb46840')  # change this
-dsn_pwd = os.getenv('DB_PWD', 'WcML1wLzOSB82Gmm')  # change this
-dsn_port = os.getenv('DB_PORT', '31198')  # change this
+dsn_hostname = os.getenv('DB_HOST', '') # change this
+dsn_uid = os.getenv('DB_UID', '')  # change this
+dsn_pwd = os.getenv('DB_PWD', '')  # change this
+dsn_port = os.getenv('DB_PORT', '')  # change this
 dsn_database = "bludb"  # change if necessary
 dsn_driver = "{IBM DB2 ODBC DRIVER}"
 dsn_protocol = "TCPIP"
