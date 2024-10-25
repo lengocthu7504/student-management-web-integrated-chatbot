@@ -2,6 +2,7 @@
  
 ## Colab Note Book
 - Create Database in IBM Cloud
+- Create a chatbot in kmomunication and paste AppID into index.html
 - Copy keys such as host, uid, password, host and paste into code block.
 - Run all code blocks and click the link below this code block:
   ```
@@ -11,6 +12,7 @@
 
 ## Run on Terminal
 - Create Database in IBM Cloud
+- Create a chatbot in kmomunication and paste AppID into index.html
 - Copy keys such as host, uid, password, host and paste into code block.
 - Run:
   ```python app.py ```
